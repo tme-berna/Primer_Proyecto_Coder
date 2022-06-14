@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* Normalizar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.cuerpo {
+  background-image: url(../img/backgroundimg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: 'Raleway' , sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
+img {
+  width: 100%;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  background-color: black;
+}
+
+header .header_logo {
+  flex-basis: 40%;
+  padding: auto;
+  margin: auto;
+}
+
+header .header_img {
+  max-width: 100px;
+ 
+}
+
+header .barraDeNavegacion {
+  flex-basis: 60%;
+}
+
+header nav .menu {
+  display: flex;
+  gap: 11rem;
+}
+
+.menu .menu__link {
+  font-size: 2em;
+  
+}
+
+/*Main*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*Seccion 1*/
+
+.intro_aplicacion {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(1) {
+    grid-column: 2/6;
+    grid-row: 2;
+}
+
+.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(2) {
+    grid-row: 3;
+    grid-column: 1/7;
+}
+
+.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(3) {
+  grid-row: 4;
+  grid-column: 3/6;
+}
+
+.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(4) {
+  grid-row: 4;
+  grid-column: 2/4;
+}
+
+.titulo1 {
+    font-family: "Koulen", sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.parrafo1 {
+    font-family: "Relaway" sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.link1{
+    color: red;
+    font-size: 40px;
+    text-decoration: none;
+    align-self: center;
+    list-style-type: none;
+}
+
+.redondo {
+  border-radius: 15px;
+}
+
+/*Sección 2*/
+
+.segundobloque {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo2 {
+    font-family: "Koulen", sans-serif;
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin-top: 200px;
+}
+
+p {
+    font-family: "Relaway" sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+/*Seccion 3*/
+
+.tercer_bloque {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tercer_bloque .e2 .img1 {
+  width: 400px;
+  height: 500px;
+}
+
+
+/*Seccion 4*/
+
+.cuarto_bloque {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cuarto_bloque .e4 .img2 {
+  width: 400px;
+  height: 500px;
+}
+
+/*Seccion 5*/
+
+.quinto_bloque {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quinto_bloque .e6 .img3 {
+  width: 400px;
+  height: 500px;
+}
+
+/*Fotter*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer .e7 .img456 {
+  width: 60px;
+  height: 60px;
+
+}
+
+.copy {
+    font-family: "Relaway" sans-serif;
+    color: gray;
+    font-size: 15px;
+    display: inline-block;
+    
+}
+
+@media screen and (max-width: 480px) {
+    header {
+      flex-direction: column;
+      gap: 2rem;
+
+    }
+
+    .intro_aplicacion {
+      grid-template-rows: repeat(4, auto);
+      gap: 1rem;
+    }
+
+    .intro_aplicacion .intro_aplicacion_elemento:nth-of-type(3) {
+      grid-row: 3;
+      grid-column: 1/6;
+    }
+    
+    .intro_aplicacion .intro_aplicacion_elemento:nth-of-type(4) {
+      grid-row: 4;
+      grid-column: 1/6;
+  
+}
+
+}
