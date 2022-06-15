@@ -53,7 +53,12 @@ header .header_logo {
 
 header .header_img {
   max-width: 100px;
+  transition: width 0.3s;
  
+}
+
+.header_img:hover {
+  width: 80px;
 }
 
 header .barraDeNavegacion {
@@ -128,6 +133,10 @@ header nav .menu {
     list-style-type: none;
 }
 
+.link1:hover {
+  background-color: gray;
+}
+
 .redondo {
   border-radius: 15px;
 }
@@ -165,6 +174,11 @@ p {
 .tercer_bloque .e2 .img1 {
   width: 400px;
   height: 500px;
+  transition: 0.3s;
+}
+
+.img1:hover {
+  transform: scale(1.05, 1.05);
 }
 
 
@@ -180,8 +194,12 @@ p {
 .cuarto_bloque .e4 .img2 {
   width: 400px;
   height: 500px;
+  transition: 0.3s;
 }
 
+.img2:hover {
+  transform: scale(1.05, 1.05);
+}
 /*Seccion 5*/
 
 .quinto_bloque {
@@ -194,6 +212,11 @@ p {
 .quinto_bloque .e6 .img3 {
   width: 400px;
   height: 500px;
+  transition: 0.3s;
+}
+
+.img3:hover {
+  transform: scale(1.05, 1.05);
 }
 
 /*Fotter*/
@@ -208,7 +231,12 @@ p {
 .footer .e7 .img456 {
   width: 60px;
   height: 60px;
+  transition: 0.3s;
 
+}
+
+.img456:hover {
+  transform: scale(1.05, 1.05);
 }
 
 .copy {
