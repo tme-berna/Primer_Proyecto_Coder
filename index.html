@@ -5,116 +5,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScImpass</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-<body class="cuerpo">
-    <header>
-      <picture class="header_logo">
-        <img src="./img/logo.jpeg" class="header_img" alt="LogoGimnasio">
-      </picture>
-        <nav class="barraDeNavegacion">
-            <ul class="menu">
-                <li class="menu__item">
-                    <a href="./views/contacto.html" class="menu__link">Contacto</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./views/membresia.html" class="menu__link">Membresia</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./views/planes.html" class="menu__link">Planes</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./views/sobre-nosotros.html" class="menu__link">Sobre Nosotros</a>
-            </ul>
-        </nav>
-    </header>
-    <main class="container">
-        <section id="intro_aplicacion" class="intro_aplicacion">
-            <div class="intro_aplicacion_elemento">
-                <h1 class="titulo1">Lleva tu entrenamiento al siguiente nivel!</h1></div>
-                <div class="intro_aplicacion_elemento">
-                <p class="parrafo1">Lleva tu entrenamiento al siguiente nivel con la    aplicación ScImpass <br>
-                para ayudarle a ponerse en la mejor forma de su vida!</p></div>
-            <div class="intro_aplicacion_elemento">
-                <ul>
-                    <li>
-                        <a href="" class="link1">AppStore</a>
-                    </li></div>
-            <div class="intro_aplicacion_elemento">
-                    <li>
-                        <a href="" class="link1">GooglePlay</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </section>
-    </main>
-    <section id="segundo_bloque" class="segundo_bloque">
-        <h2 class="titulo2">¿Quieres construir musculo, perder grasa y desarrollar la tecnica?</h2>
-        <p class="parrafo 2">¡Descargue la aplicación ScImpass ahora para tener acceso a todos los entrenamientos y programas en el estilo utilizado por el renombrado atleta de calistenia y fitness, Mateo Turina!</p>
 
-    </section>
-    <section id="tercer_bloque" class="tercer_bloque">
-        <div class="tercer_bloque e1">
-            <h2 class="titulo2">Entrenamientos y    Programas</h2>
-            <p>
-                Encuentra CIENTOS de programas, creados     personalmente por Mateo
-    ¡y miles de sus clientes en la sección de Programas de  ScImpass que se han acumulado durante los últimos 10     años con nuevos agregados semanalmente!
-            </p>
-            <li>
-                <a href="" class="link1">AppleStore</a>
-            </li>
-            <li>
-                <a href="" class="link1">GooglePlay</a>
-            </li>
+    <!-- Google Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Estilos CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+
+<body>
+    <header>
+        <section class="colored-section" id="title">
+  
+        <div class="container-fluid">
+  
+    <!-- Barra de Navegación -->
+  
+            <nav class="navbar navbar-expand-lg navbar-dark">
+  
+            <a class="navbar-brand" href="">ScImpass</a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse">
+  
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./views/contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./views/membresia.html" class="nav-link">Membresia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./views/planes.html" class="nav-link">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./views/sobre-nosotros.html" class="nav-link">Sobre Nosotros</a>
+                </ul>
+  
+            </div>
+            </nav>
+  
+  
+    <!-- Display -->
+  
+            <div class="row">
+  
+            <div class="col-lg-6">
+                <h1 class="big-heading">Lleva tu entrenamiento al siguiente nivel!</h1>
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Apple Play</button>
+                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Google Play</button>
+            </div>
+  
+            <div class="col-lg-6">
+                <img class="title-image" src="./img/logo.jpeg" alt="iphone-mockup">
+            </div>
+  
+            </div>
+  
         </div>
-        <picture class="tercer_bloque e2">
-            <img src="./img/app1.jpg" alt="Vista app1" class="img1">
-        </picture>
-    </section>
-    <section id="cuarto_bloque" class="cuarto_bloque">
-        <div class="cuarto_bloque e3">
-            <h2 class="titulo2">Tu calendario de entrenamiento</h2>
-            <p>
-            Programa y organiza entrenamientos en tu calendario. Planifique con anticipación y esté al tanto de su juego.
+  
+        </section>
+    </header>
+  
+  
+    <!-- Descripción -->
+  
+    <section class="black-section" id="features">
+  
+      <div class="container-fluid">
+  
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Entrenamientos y    Programas</h3>
+            <p>Encuentra CIENTOS de programas, creados personalmente por Mateo
+                ¡y miles de sus clientes en la sección de Programas de ScImpass que se han acumulado durante los últimos 10 años con nuevos agregados semanalmente!
             </p>
-            <li>
-                <a href="" class="link1">Empieza a  entrenar</a>
-            </li>
-            <li>
-                <a href="" class="link1">Ver mas</a>
-            </li>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <h3 class="feature-title">Tu calendario de entrenamiento</h3>
+            <p>Programa y organiza entrenamientos en tu calendario. Planifique con anticipación y esté al tanto de su juego.</p>
+          </div>
+  
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Generador de entrenamiento</h3>
+            <p>Crea tu propio plan de entrenamiento personalizado basado en tus preferencias con el algoritmo especial de Mateo.</p>
+          </div>
         </div>
-        <picture class="cuarto_bloque e4">
-            <img src="./img/app2.jpg" alt="Vista app2" class="img2">
-        </picture>
+  
+  
+      </div>
     </section>
-    <section id="quinto_bloque" class="quinto_bloque">
-        <div class="quinto_bloque e5">
-            <h2 class="titulo2">Generador de entrenamiento</h2>
-            <p>
-            Crea tu propio plan de entrenamiento personalizado basado en tus preferencias con el algoritmo especial de Mateo.
-            </p>
+  
+  
+    <!-- Testimonios -->
+  
+    <section class="colored-section" id="testimonials">
+  
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">Una maravilla! Logre conseguir el estado físico que siempre deseé luego de los entrenamientos.</h2>
+            <img class="testimonial-image" src="./img/lady-img.jpg" alt="lady-profile">
+            <em>Claudia, Córdoba</em>
+          </div>
         </div>
-        <picture class="quinto_bloque e6">
-            <img src="./img/app3.png" alt="Vista app3" class="img3">
-        </picture>
+        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+  
     </section>
-<footer class="footer">
-    <ul>
-        <picture class="e7">
-             <img src="./img/insta.png" alt="Instagram" class="img456">
-        </picture>
-        <picture class="e7">
-            <img src="./img/tw.png" alt="Twitter" class="img456">
-        </picture>
-        <picture class="e7">
-            <img src="./img/face.png" alt="Facebook" class="img456">
-        </picture>
-        <span class="copy">
-            Copyright © Mateo Turina
-        </span>
-    </ul>
-</footer>
-</body>
-</html>
+  
+  
+    <!-- Sponsor -->
+  
+    <section class="colored-section" id="press">
+      <img class="press-logo" src="./img/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="./img/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="./img/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo" src="./img/mashable.png" alt="mashable-logo">
+  
+    </section>
+  
+    <!-- Llamado al Cliente -->
+  
+    <section class="colored-section" id="cta">
+  
+      <div class="container-fluid">
+  
+        <h3 class="big-heading">¡Descargue la aplicación ScImpass ahora para tener acceso a todos los entrenamientos y programas en el estilo utilizado por el renombrado atleta de calistenia y fitness, Mateo Turina!</h3>
+        <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Apple Play</button>
+        <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Google Play</button>
+      </div>
+    </section>
+  
+  
+    <!-- Footer -->
+  
+    <footer class="black-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>Copyright © Mateo Turina 2022</p>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  
+  </body>
+  
+  </html>
