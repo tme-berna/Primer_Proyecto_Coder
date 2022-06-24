@@ -1,273 +1,192 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-
 /* Normalizar*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
+body {
+font-family: "Montserrat";
+text-align: center;
 }
 
-.cuerpo {
-  background-image: url(../img/backgroundimg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  font-family: 'Raleway' , sans-serif;
-  text-decoration: none;
-  color: gray;
-}
-
-img {
-  width: 100%;
-}
-
-/*Header*/
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 0;
-  background-color: black;
-}
-
-header .header_logo {
-  flex-basis: 40%;
-  padding: auto;
-  margin: auto;
-}
-
-header .header_img {
-  max-width: 100px;
-  transition: width 0.3s;
- 
-}
-
-.header_img:hover {
-  width: 80px;
-}
-
-header .barraDeNavegacion {
-  flex-basis: 60%;
-}
-
-header nav .menu {
-  display: flex;
-  gap: 11rem;
-}
-
-.menu .menu__link {
-  font-size: 2em;
-  
-}
-
-/*Main*/
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/*Seccion 1*/
-
-.intro_aplicacion {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 3rem;
-  justify-items: center;
-  align-items: center;
-}
-
-.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(1) {
-    grid-column: 2/6;
-    grid-row: 2;
-}
-
-.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(2) {
-    grid-row: 3;
-    grid-column: 1/7;
-}
-
-.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(3) {
-  grid-row: 4;
-  grid-column: 3/6;
-}
-
-.intro_aplicacion .intro_aplicacion_elemento:nth-of-type(4) {
-  grid-row: 4;
-  grid-column: 2/4;
-}
-
-.titulo1 {
-    font-family: "Koulen", sans-serif;
-    color: white;
-    font-size: 40px;
-}
-
-.parrafo1 {
-    font-family: "Relaway" sans-serif;
-    color: white;
-    font-size: 30px;
-}
-
-.link1{
-    color: red;
-    font-size: 40px;
-    text-decoration: none;
-    align-self: center;
-    list-style-type: none;
-}
-
-.link1:hover {
-  background-color: gray;
-}
-
-.redondo {
-  border-radius: 15px;
-}
-
-/*Sección 2*/
-
-.segundobloque {
-  display: flex;
-  justify-content: center;
-}
-
-.titulo2 {
-    font-family: "Koulen", sans-serif;
-    color: white;
-    font-size: 30px;
-    display: block;
-    margin-top: 200px;
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat-Bold";
 }
 
 p {
-    font-family: "Relaway" sans-serif;
-    color: white;
-    font-size: 22px;
+color: #8f8f8f;
 }
 
-/*Seccion 3*/
+/* Cabecera */
 
-.tercer_bloque {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.big-heading {
+font-family: "Montserrat-Black";
+font-size: 3.5rem;
+line-height: 1.5;
 }
 
-.tercer_bloque .e2 .img1 {
-  width: 400px;
-  height: 500px;
-  transition: 0.3s;
+.section-heading {
+font-size: 3rem;
+line-height: 1.5;
 }
 
-.img1:hover {
-  transform: scale(1.05, 1.05);
+/* Contenedores */
+
+.container-fluid{
+padding: 7% 15%;
+}
+
+/* Secciones */
+
+.colored-section {
+background-color: red;
+color: #fff;
+}
+
+.black-section {
+background-color: black;
+}
+
+/* Barra de Navegación */
+
+.navbar {
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+color: red;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-family: "Montserrat-Light";
+}
+
+/* Botones */
+
+.download-button {
+margin: 5% 3% 5% 0;
+}
+
+/* Titulo de Secciones */
+
+#title {
+background-color: #000000;
+color: #fff;
+text-align: left;
+}
+
+#title .container-fluid {
+padding: 3% 15% 7%;
+}
+
+/* Logo (Titulo) */
+
+.title-image {
+width: 40%;
+transform: rotate(25deg);
+position: absolute;
+right: 5%;
+border-radius: 10px;
+}
+
+/* Seccion descriptiva */
+
+#features {
+position: relative;
+}
+
+.feature-title {
+font-size: 1.5rem;
+}
+
+.feature-box {
+padding: 4.5%;
+}
+
+.icon {
+color: red;
+margin-bottom: 1rem;
+}
+
+.icon:hover {
+color: white;
+}
+
+/* Seccion de testimonio */
+
+#testimonials {
+background-color: red;
+}
+
+.testimonial-text {
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.testimonial-image {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
 }
 
 
-/*Seccion 4*/
-
-.cuarto_bloque {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#press {
+background-color: #8f8f8f;
+padding-bottom: 3%;
 }
 
-.cuarto_bloque .e4 .img2 {
-  width: 400px;
-  height: 500px;
-  transition: 0.3s;
+.press-logo {
+width: 15%;
+margin: 20px 20px 50px;
 }
 
-.img2:hover {
-  transform: scale(1.05, 1.05);
-}
-/*Seccion 5*/
+/* Seccion de precios */
 
-.quinto_bloque {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+#pricing {
+padding: 100px;
 }
 
-.quinto_bloque .e6 .img3 {
-  width: 400px;
-  height: 500px;
-  transition: 0.3s;
+.price-text {
+font-size: 3rem;
+line-height: 1.5;
 }
 
-.img3:hover {
-  transform: scale(1.05, 1.05);
+.pricing-column {
+padding: 3% 2%;
 }
 
-/*Fotter*/
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
+.card-header {
+background-color: red;
 }
 
-.footer .e7 .img456 {
-  width: 60px;
-  height: 60px;
-  transition: 0.3s;
-
+.card-body {
+background-color: black;
 }
 
-.img456:hover {
-  transform: scale(1.05, 1.05);
+/* Footer */
+
+
+.social-icon {
+margin: 20px 10px;
 }
 
-.copy {
-    font-family: "Relaway" sans-serif;
-    color: gray;
-    font-size: 15px;
-    display: inline-block;
-    
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-    header {
-      flex-direction: column;
-      gap: 2rem;
-
-    }
-
-    .intro_aplicacion {
-      grid-template-rows: repeat(4, auto);
-      gap: 1rem;
-    }
-
-    .intro_aplicacion .intro_aplicacion_elemento:nth-of-type(3) {
-      grid-row: 3;
-      grid-column: 1/6;
-    }
-    
-    .intro_aplicacion .intro_aplicacion_elemento:nth-of-type(4) {
-      grid-row: 4;
-      grid-column: 1/6;
-  
+.title-image {
+  position: static;
+  transform: rotate(0);
 }
-
 }
