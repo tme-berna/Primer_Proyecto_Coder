@@ -1,0 +1,35 @@
+Se agregaron las etiquetas respectivas de <meta> para las keywords y las descriptions en cada página del sitio web. Además se cambiaron un poco los títulos.
+
+A continuación, daré a conocer los valores que se le colocaron a dichas etiquetas en cada argumento. 
+
+Inicio: ? Keywords: GIMNASIO, CORDOBA, AERÓBICO, HIPERTROFIA, BIG-SPACE, CALISTENIA, CARDIO
+
+	? Descripción: ScImpass, ofrece una amplia gama de planes y rutinas de entrenamiento para conseguir ese físico que tanto deseas. Además, se encuentra ubicado en uno de los mejores lugares de Córdoba
+
+	? Titulo: ScImpass
+
+Contacto: ? Keywords: Email ScImpass, Teléfono ScImpass, Whatsapp ScImpass, Twitter ScImpass, Facebook ScImpass, Instagram ScImpass
+
+	? Descripción: Ponte en contacto con nosotros a través de nuestras redes sociales y otros medios de contacto disponibles en ScImpass!
+	
+	? Titulo: ScImpass - Contacto
+	
+Membresia: ? Keywords: Membresía, Descuentos, Gratis, Cuota, Pago
+	
+	? Descripción: Descuentos en nuestra membresía de ScImpass! Aprovecha esta oportunidad limitada!
+	
+	? Titulo: ScImpass - Membresia
+
+Planes: ? Keywords: Planes, Entrenamiento, Aeróbico, Calistenia, Cardio, Hipertrofia
+
+	? Descripción: Contamos con profesionales de alto nivel que podrán ofrecerte los mejores planes y rutinas para tu fisíco.
+
+	? Titulo: ScImpass - Planes
+
+
+Sobre Nosotros: ? Keywords: Familia ScImpass, Gimnasio, ScImpass, Conocernos
+
+	
+           		? Descripción: Para más información sobre nuestro gimnasio, puedes encontrar más aquí.
+
+		? Titulo: ScImpass – Sobre Nosotros
