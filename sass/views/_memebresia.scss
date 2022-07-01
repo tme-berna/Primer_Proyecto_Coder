@@ -1,0 +1,22 @@
+  /* Seccion de precios */
+  
+  #pricing {
+    padding: 100px;
+  
+    .price-text {
+      font-size: $text-medium;
+      line-height: 1.5;
+      }
+      
+      .pricing-column {
+      padding: 3% 2%;
+      }
+    }
+    
+    .card-header {
+      background-color: $secundario;
+
+    .card-body {
+      background-color: $principal;
+      }
+    }

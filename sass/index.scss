@@ -1,193 +1,23 @@
-/* Normalizar*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-  font-family: "Montserrat";
-  text-align: center;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
-  }
-  
-  p {
-  color: #8f8f8f;
-  }
-  
-  /* Cabecera */
-  
-  .big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-    
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-    }
-  }
-  
-  
-  /* Contenedores */
-  
-  .container-fluid{
-  padding: 7% 15%;
-  }
-  
-  /* Secciones */
-  
-  .colored-section {
-  background-color: red;
-  color: #fff;
-  }
-  
-  .black-section {
-  background-color: black;
-  }
-  
-  /* Barra de Navegación */
-  
-  .navbar {
-  padding: 0 0 4.5rem;
 
-  .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: red;
+/* MISCS */
 
-    .nav-item {
-        padding: 0 18px;
+@import './misc/variables';
+@import './misc/mixins';
+@import './misc/normalize';
 
-        .nav-link {
-            font-size: 1.2rem;
-            font-family: "Montserrat-Light";
-            }
-        }
-    }
-  }
-  
+/* PARTIALS */
 
-  /* Botones */
-  
-  .download-button {
-  margin: 5% 3% 5% 0;
-  }
-  
-  /* Titulo de Secciones */
-  
-  #title {
-  background-color: #000000;
-  color: #fff;
-  text-align: left;
+@import './partials/header';
+@import './partials/footer';
 
-  .container-fluid {
-    padding: 3% 15% 7%;
-    }
-  }
-  
+/* VIEWS */
 
-  
-  /* Logo (Titulo) */
-  
-  .title-image {
-  width: 40%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 5%;
-  border-radius: 10px;
-  }
-  
-  /* Seccion descriptiva */
-  
-  #features {
-  position: relative;
-    
-  .feature-title {
-    font-size: 1.5rem;
-    }
-    
-    .feature-box {
-    padding: 4.5%;
-    }
+@import './views/home';
+@import './views/contacto';
+@import './views/memebresia';
+@import './views/sobrenosotros';
 
-  }
 
-  
-  .icon {
-  color: red;
-  margin-bottom: 1rem;
-  .icon:hover {
-    color: white;
-    }
-  }
-  
-  
-  /* Seccion de testimonio */
-  
-  #testimonials {
-  background-color: red;
-
-  .testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5;
-    }
-    
-    .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-    }
-  }
-  
-  #press {
-  background-color: #8f8f8f;
-  padding-bottom: 3%;
-    
-  .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-    }
-  }
-  
- 
-  
-  /* Seccion de precios */
-  
-  #pricing {
-  padding: 100px;
-
-  .price-text {
-    font-size: 3rem;
-    line-height: 1.5;
-    }
-    
-    .pricing-column {
-    padding: 3% 2%;
-    }
-  }
-  
-
-  
-  .card-header {
-  background-color: red;
-  .card-body {
-    background-color: black;
-    }
-  }
-  
-  
-  /* Footer */
-  
-  
-  .social-icon {
-  margin: 20px 10px;
-  }
-  
   @media (max-width: 1028px) {
   
   #title {

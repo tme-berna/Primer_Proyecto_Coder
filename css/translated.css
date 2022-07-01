@@ -1,4 +1,19 @@
 @charset "UTF-8";
+/* MISCS */
+/* Colors */
+.principal {
+  background-color: black; }
+
+.secundario {
+  background-color: red; }
+
+.terciario {
+  background-color: white; }
+
+.alternativo {
+  background-color: grey; }
+
+/* Font-Size*/
 /* Normalizar*/
 * {
   margin: 0;
@@ -15,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #8f8f8f; }
 
+/* PARTIALS */
 /* Cabecera */
 .big-heading {
   font-family: "Montserrat-Black";
@@ -24,31 +40,35 @@ p {
     font-size: 3rem;
     line-height: 1.5; }
 
+/* Barra de Navegación */
+.navbar {
+  padding: 0 0 4.5rem; }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: red; }
+    .navbar-brand .nav-item {
+      padding: 0 18px; }
+      .navbar-brand .nav-item .nav-link {
+        font-size: 1.2rem;
+        font-family: "Montserrat-Light"; }
+
+/* Footer */
+.social-icon {
+  margin: 20px 10px; }
+
+/* VIEWS */
 /* Contenedores */
 .container-fluid {
   padding: 7% 15%; }
 
 /* Secciones */
 .colored-section {
-  background-color: red;
-  color: #fff; }
+  color: white; }
 
 .black-section {
   background-color: black; }
-
-/* Barra de Navegación */
-.navbar {
-  padding: 0 0 4.5rem; }
-  .navbar .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: red; }
-    .navbar .navbar-brand .nav-item {
-      padding: 0 18px; }
-      .navbar .navbar-brand .nav-item .nav-link {
-        font-size: 1.2rem;
-        font-family: "Montserrat-Light"; }
 
 /* Botones */
 .download-button {
@@ -56,8 +76,8 @@ p {
 
 /* Titulo de Secciones */
 #title {
-  background-color: #000000;
-  color: #fff;
+  background-color: black;
+  color: white;
   text-align: left; }
   #title .container-fluid {
     padding: 3% 15% 7%; }
@@ -79,26 +99,23 @@ p {
     padding: 4.5%; }
 
 .icon {
-  color: red;
   margin-bottom: 1rem; }
-  .icon .icon:hover {
+  .icon:hover {
     color: white; }
 
 /* Seccion de testimonio */
-#testimonials {
-  background-color: red; }
-  #testimonials .testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5; }
-  #testimonials .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px; }
+#testimonials .testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5; }
+
+#testimonials .testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px; }
 
 #press {
-  background-color: #8f8f8f;
   padding-bottom: 3%; }
-  #press .press-logo {
+  #press-logo {
     width: 15%;
     margin: 20px 20px 50px; }
 
@@ -115,10 +132,6 @@ p {
   background-color: red; }
   .card-header .card-body {
     background-color: black; }
-
-/* Footer */
-.social-icon {
-  margin: 20px 10px; }
 
 @media (max-width: 1028px) {
   #title {

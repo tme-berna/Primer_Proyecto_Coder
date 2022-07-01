@@ -1,0 +1,95 @@
+/* Contenedores */
+  
+.container-fluid{
+    padding: 7% 15%;
+    }
+    
+    /* Secciones */
+    
+    .colored-section {
+    background-color: map-get($colors, $secundario);
+    color: $terciario;
+    }
+    
+    .black-section {
+    background-color: $principal;
+    }
+    
+    /* Botones */
+    
+    .download-button {
+    margin: 5% 3% 5% 0;
+    
+    }
+    
+    /* Titulo de Secciones */
+    
+    #title {
+    background-color: $principal;
+    color: $terciario;
+    text-align: left;
+  
+    .container-fluid {
+      padding: 3% 15% 7%;
+      }
+    }
+    
+  
+    
+    /* Logo (Titulo) */
+    
+    .title-image {
+    @include title-img;
+    
+    }
+    
+    /* Seccion descriptiva */
+    
+    #features {
+    position: relative;
+      
+    .feature-title {
+      font-size: 1.5rem;
+      }
+      
+      .feature-box {
+      padding: 4.5%;
+      }
+  
+    }
+  
+    
+    .icon {
+    color: map-get($colors, $secundario);
+    margin-bottom: 1rem;
+    &:hover {
+      color: $terciario;
+      }
+    }
+    
+    
+    /* Seccion de testimonio */
+    
+    #testimonials {
+    background-color: map-get($colors, $secundario);
+  
+    .testimonial-text {
+      font-size: $text-medium;
+      line-height: 1.5;
+      }
+      
+      .testimonial-image {
+      width: 10%;
+      border-radius: 100%;
+      margin: 20px;
+      }
+    }
+    
+    #press {
+    padding-bottom: 3%;
+      
+    &-logo {
+      width: 15%;
+      margin: 20px 20px 50px;
+      }
+  }

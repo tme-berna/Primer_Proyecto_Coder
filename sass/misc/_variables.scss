@@ -1,0 +1,25 @@
+/* Colors */
+
+$principal: black;
+$secundario: red;
+$terciario: white;
+$alternativo: grey;
+
+$colors: (
+    principal: black,
+    secundario: red,
+    terciario: white,
+    alternativo: grey
+);
+
+@each $var, $val in $colors {
+    .#{$var} {
+        background-color: #{$val};
+    }
+}
+
+
+/* Font-Size*/ 
+
+$text-medium: 3rem;
+
