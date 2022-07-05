@@ -24,11 +24,13 @@ color: #8f8f8f;
 font-family: "Montserrat-Black";
 font-size: 3.5rem;
 line-height: 1.5;
+color: white;
 }
 
 .section-heading {
 font-size: 3rem;
 line-height: 1.5;
+color: white;
 }
 
 /* Contenedores */
@@ -52,6 +54,10 @@ background-color: black;
 
 .navbar {
 padding: 0 0 4.5rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
 }
 
 .navbar-brand {
@@ -158,6 +164,7 @@ padding: 100px;
 .price-text {
 font-size: 3rem;
 line-height: 1.5;
+color: white;
 }
 
 .pricing-column {
@@ -168,8 +175,42 @@ padding: 3% 2%;
 background-color: red;
 }
 
+.h3, h3 {
+  color: black;
+}
+
 .card-body {
 background-color: black;
+}
+
+/*Formulario*/
+
+.no-margin {
+  margin-bottom: 0;
+  color: white;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+  width: 450px;
+}
+
+.form-label {
+  color: red;
+}
+
+.form-text {
+  color: white;
+}
+
+.form-check-label {
+  color: white;
 }
 
 /* Footer */

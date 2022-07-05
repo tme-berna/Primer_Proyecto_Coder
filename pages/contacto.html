@@ -5,69 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Email ScImpass, Teléfono ScImpass, Whatsapp ScImpass, Twitter ScImpass, Facebook ScImpass, Instagram ScImpass">
-    <link rel="stylesheet" href="../css/index.css">
-    <title> ScImpass - Contacto</title>
+    <title>ScImpass - Contacto</title>
     <meta name="description" content="Ponte en contacto con nosotros a traves de nuestras redes sociales y otros medios de contacto disponibles en ScImpass!">
+
+    <!-- Google Fonts -->
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Estilos CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
 </head>
-<body class="cuerpo">
+
+<body>
     <header>
-        <img src="../img/logo.jpeg" class="header_img" alt="LogoGimnasio">
-        <nav class="barraDeNavegacion">
-            <ul class="menu">
-                <li class="menu__item">
-                <a href="../index.html" class="menu__link">Inicio</a>
+        <section class="colored-section" id="title">
+  
+        <div class="container-fluid">
+  
+    <!-- Barra de Navegación -->
+  
+            <nav class="navbar navbar-expand-lg navbar-dark">
+  
+            <a class="navbar-brand" href="">ScImpass</a>
+  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                 </li>
-                <li class="menu__item">
-                    <a href="./membresia.html" class="menu__link">Membresia</a>   
+                <li class="nav-item">
+                  <a class="nav-link" href="./membresia.html">Membresia</a>
                 </li>
-                <li class="menu__item">
-                    <a href="./planes.html" class="menu__link">Planes</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="./planes.html">Planes</a>
                 </li>
-                <li class="menu__item">
-                    <a href="./sobre-nosotros.html" class="menu__link">Sobre Nosotros</a>
-            </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+              </ul>
+            </div>
         </nav>
-    </header>
-    <section>
-      <h1 class="titulo1">
+        </header>
+
+
+    <section class="black-section">
+      <h1 class="no-margin">
         Contactanos!
       </h1>
     </section>
     <main>
-      <section>
-          <div id="after_submit"></div>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-<div class="row">
-  <label class="form" for="name">Nombre y Apellido:</label><br />
-  <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-  <span id="name_validation" class="error_message"></span>
-</div>
-<div class="row">
-  <label class="form" for="email">Email:</label><br />
-  <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-  <span id="email_validation" class="error_message"></span>
-</div>
-<div class="row">
-  <label class="form" for="message">Mensaje:</label><br />
-  <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-  <span id="message_validation" class="error_message"></span>
-</div>
-  
-  <input id="submit_button" type="submit" value="Enviar email" />
-</form>
+      <section class="black-section">
+        <div class="container">
+          <div class="abs-center">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Dirección de Correo</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie más</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contrasenia</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Quiero recibir notificaciones de ScImpass</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
       </section>
   </main>
 
-    <footer class="pieg">
-      <ul>
-          <img src="../img/insta.png" alt="Instagram" class="img456">
-          <img src="../img/tw.png" alt="Twitter" class="img456">
-          <img src="../img/face.png" alt="Facebook" class="img456">
-          <li>
-                Copyright © Mateo Turina 2022
-            </li>
-      </ul>
-  </footer>
+    <!-- Footer -->
+  
+    <footer class="black-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>Copyright © Mateo Turina 2022</p>
+      </div>
+    </footer>
+    
+    <!-- Bootstrap Scripts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
     
 </body>

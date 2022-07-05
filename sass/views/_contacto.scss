@@ -1,0 +1,32 @@
+/*Formulario*/
+
+.no-margin {
+    margin-bottom: 0;
+    color: white;
+
+    .abs-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+  }
+  
+
+  
+  .form {
+    width: 450px;
+    
+    &-label {
+        color: red;
+      }
+      
+      &-text {
+        color: white;
+      }
+      
+      &-check-label {
+        color: white;
+      }
+  }
+  
